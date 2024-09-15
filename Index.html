@@ -3,22 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Web</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Dark Kitchen - Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Asian Kitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="pages/menu.html">Menus</a></li>
+                <li><a href="pages/panier.html">Panier</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <section>
-            <p>Choisissez votre menu</p>
-        </section>
-    </main>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue chez Dark Kitchen</h1>
+            <p>Découvrez nos plats délicieux, préparés avec soin pour une expérience gastronomique unique.</p>
+            <a href="pages/menu.html" class="btn-primary">Voir les menus</a>
+        </div>
+    </section>
+
+    <section class="featured-dish">
+        <div class="container">
+            <h2>Plat du jour</h2>
+            <div class="dish">
+                <img src="images/plat1.jpg" alt="Plat du jour">
+                <div class="dish-details">
+                    <h3>Nasi Goreng</h3>
+                    <p>Riz sauté au légume facon Algerienne.</p>
+                    <a href="pages/menu.html" class="btn-secondary">Ajouter au panier</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+        <p>&copy; 2023 Dark Kitchen. Tous droits réservés.</p>
     </footer>
 </body>
 </html>

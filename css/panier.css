@@ -1,0 +1,17 @@
+.cart {
+    margin: 50px;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-items li {
+    margin-bottom: 15px;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 20px;
+}

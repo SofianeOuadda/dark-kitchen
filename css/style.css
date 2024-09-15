@@ -1,0 +1,135 @@
+/* Définir la police principale */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: #333;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e55340;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.featured-dish {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.featured-dish h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.dish {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dish img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.dish-details {
+    max-width: 500px;
+    text-align: left;
+}
+
+.dish-details h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.dish-details p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
