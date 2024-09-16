@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Kitchen - Panier</title>
     <link rel="stylesheet" href="../css/panier.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="../images/logo.png" alt="Dark Kitchen Logo">
-            </div>
-            <ul class="nav-links">
+            <ul>
                 <li><a href="../index.html">Accueil</a></li>
                 <li><a href="menu.html">Menus</a></li>
                 <li><a href="panier.html">Panier</a></li>
@@ -20,19 +20,27 @@
         </nav>
     </header>
 
-    <main>
-        <section class="cart">
+    <section class="cart-section">
+        <div class="container">
             <h1>Votre Panier</h1>
-            <ul class="cart-items">
-                <li>Menu Gourmet - 15€</li>
-                <!-- Plus d'items ici -->
-            </ul>
-            <div class="total">
-                <span>Total : 30€</span>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <h3>Menu Savoureux</h3>
+                    <p>Quantité : 1</p>
+                    <p>Prix : 15,00€</p>
+                </div>
+                <div class="cart-item">
+                    <h3>Menu Gourmand</h3>
+                    <p>Quantité : 2</p>
+                    <p>Prix : 30,00€</p>
+                </div>
             </div>
-            <button class="btn-validate">Valider la commande</button>
-        </section>
-    </main>
-    
+
+            <div class="cart-total">
+                <h3>Total : 45,00€</h3>
+                <a href="#" class="btn-primary">Valider la commande</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

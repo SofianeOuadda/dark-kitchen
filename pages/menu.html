@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Kitchen - Menu</title>
+    <title>Dark Kitchen - Menus</title>
     <link rel="stylesheet" href="../css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="../images/logo.png" alt="Dark Kitchen Logo">
-            </div>
-            <ul class="nav-links">
+            <ul>
                 <li><a href="../index.html">Accueil</a></li>
                 <li><a href="menu.html">Menus</a></li>
                 <li><a href="panier.html">Panier</a></li>
@@ -20,18 +20,27 @@
         </nav>
     </header>
 
-    <main>
-        <section class="menu-list">
+    <section class="menu-section">
+        <div class="container">
             <h1>Nos Menus</h1>
-            <div class="menu-item">
-                <img src="../images/plat1.jpg" alt="Plat 1">
-                <h2>Menu Gourmet</h2>
-                <p>Description du menu</p>
-                <span>Prix: 15€</span>
-                <button class="btn-add-cart">Ajouter au panier</button>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="../images/nazi_goreng.jpg" alt="Menu 1">
+                    <h3>Menu Savoureux</h3>
+                    <h4>Nazi Goreng</h4>
+                    <p>Un délicieux menu composé d'ingrédients ultra proteine.</p>
+                    <a href="panier.html" class="btn-primary">Ajouter au panier</a>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/mie_goreng.jpg" alt="Menu 2">
+                    <h3>Menu Gourmand</h3>
+                    <h4>Mie Goreng</h4>
+                    <p>Un menu généreux pour les afters salle.</p>
+                    <a href="panier.html" class="btn-primary">Ajouter au panier</a>
+                </div>
+    
             </div>
-            
-        </section>
-    </main>
+        </div>
+    </section>
 </body>
 </html>
